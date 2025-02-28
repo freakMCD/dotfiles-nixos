@@ -17,7 +17,7 @@ declare -A chill=(
     ["https://www.youtube.com/playlist?list=PL1JxBieKp06LBAiOlziByhHyRwfMOLbDj"]="Babymetal"
     ["https://www.youtube.com/playlist?list=PL4CmunqMOJjL9ClFBPb9pjNun2GmL5Ll-"]="G-Dragon"
     ["https://www.youtube.com/playlist?list=PLnxYCI2LodNiEhtP4kTqIeuGPZBsxJZ7s"]="Ado"
-    ["https://www.youtube.com/playlist?list=PLpISYQjbY0iSMUfL58jij2ZjlkYYuLz9x"]="Phantom Siita"
+    ["https://www.youtube.com/playlist?list=PLUXthWEuMhTa7jaiH88BcZLDeH6Clv8Yg"]="Phantom Siita"
 )
 
 download_playlists() {

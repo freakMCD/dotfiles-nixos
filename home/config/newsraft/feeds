@@ -1,23 +1,20 @@
 # vim: set nowrap :
 #
 @ News < reload-period 1440
+https://gitlab.com/nitrohorse/search-engines-compare/-/commits/master?format=atom
 https://codeberg.org/newsraft/newsraft/releases.rss
 https://codeberg.org/dnkl/yambar/releases.rss
 
-@ Youtube < reload-period 720
-
-https://www.youtube.com/feeds/videos.xml?playlist_id=UULF5uNya42ayhsRnZOR3mO6NA "Insym Videos"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCw5fOoT2b54zDMwgWkvIHrA "BlueSR"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCEYGHOLgKlLMDNrGCno3oJA "fireb0rn"
-https://www.youtube.com/feeds/videos.xml?playlist_id=UULFGwu0nbY2wSkW8N-cghnLpA "Jaiden Animations"
-
-@ Manga < reload-period 1440
+@ Manga
 $(html2rss feed ~/nix/scripts/rss/onepiece.yml) "One Piece"
 
-@ Twitch < reload-period 60
+@ Leisure < reload-period 720
 https://twitchrss.appspot.com/vodonly/blue_sr_
-https://twitchrss.appspot.com/vodonly/scottybvb
 https://twitchrss.appspot.com/vodonly/lep19
+https://www.youtube.com/feeds/videos.xml?channel_id=UCw5fOoT2b54zDMwgWkvIHrA "BlueSR"
+https://www.youtube.com/feeds/videos.xml?playlist_id=UULFGwu0nbY2wSkW8N-cghnLpA "Jaiden Animations"
+
+
 
 
 

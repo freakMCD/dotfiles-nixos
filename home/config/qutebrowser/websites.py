@@ -4,7 +4,8 @@ config.set('content.javascript.enabled', False, 'genius.com')
 config.set('content.javascript.enabled', False, '*.fandom.com')
 
 c.url.searchengines = {
-    "DEFAULT": "https://lite.duckduckgo.com/lite/?q={}",
+    "DEFAULT": "https://www.mojeek.com/search?q={}",
+    "!i": "https://www.mojeek.com/search?q={}&fmt=images",
 }
 c.url.default_page = "https://lite.duckduckgo.com"
 
